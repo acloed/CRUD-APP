@@ -1,7 +1,7 @@
 <?php 
-    require_once("/Applications/MAMP/htdocs/myproject/view/head/head.php");
+require_once("../head/head.php");
 
-    require_once("/Applications/MAMP/htdocs/myproject/controller/usernameController.php");
+    require_once("../../controller/usernameController.php");
     $obj = new usernameController();
     $user = $obj->show($_GET['id']);
     
@@ -29,5 +29,5 @@
 
 
 <?php 
-    require_once("/Applications/MAMP/htdocs/myproject/view/head/footer.php");
+    require_once("../head/footer.php");
 ?>
