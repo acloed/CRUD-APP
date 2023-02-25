@@ -3,7 +3,7 @@
         private $PDO;
         public function __construct()
         {
-            require_once("/Applications/MAMP/htdocs/myproject/config/db.php");
+            require_once("../../config/db.php");
             $con = new db();
             $this->PDO = $con->connection();
         }

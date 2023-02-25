@@ -4,7 +4,7 @@
         private $model;
         public function __construct()
         {
-            require_once("/Applications/MAMP/htdocs/myproject/model/usernameModel.php");
+            require_once("../../model/usernameModel.php");
             $this->model = new usernameModel();
 
         }

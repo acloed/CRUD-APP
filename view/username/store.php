@@ -1,5 +1,5 @@
 <?php
-    require_once("/Applications/MAMP/htdocs/myproject/controller/usernameController.php");
+    require_once("../../controller/usernameController.php");
     $obj =new usernameController();
     $obj-> save($_POST['name']);
 
